@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "titre": "Hydratation quotidienne",
+    "contenu": "Buvez 1.5 a 2 litres d'eau par jour pour maintenir une bonne hydratation.",
+    "categorie": "nutrition",
+    "icone": "water"
+  },
+  {
+    "id": 2,
+    "titre": "Activite physique",
+    "contenu": "Marchez au moins 30 minutes par jour, 5 jours par semaine.",
+    "categorie": "sport",
+    "icone": "fitness"
+  },
+  {
+    "id": 3,
+    "titre": "Sommeil regulier",
+    "contenu": "Essayez de dormir 7 a 8 heures par nuit avec des horaires stables.",
+    "categorie": "bien-etre",
+    "icone": "sleep"
+  },
+  {
+    "id": 4,
+    "titre": "Suivi medical",
+    "contenu": "Planifiez un bilan medical annuel meme en absence de symptomes.",
+    "categorie": "prevention",
+    "icone": "medical"
+  }
+]
+

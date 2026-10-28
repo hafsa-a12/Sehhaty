@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titre"
+        android:textSize="13sp"
+        android:textColor="@color/gris_texte"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/etTitre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ex: Tension artérielle"
+        android:inputType="text"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contenu"
+        android:textSize="13sp"
+        android:textColor="@color/gris_texte"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/etContenu"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Décrivez vos observations..."
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Catégorie"
+        android:textSize="13sp"
+        android:textColor="@color/gris_texte"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="4dp" />
+
+    <Spinner
+        android:id="@+id/spinTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

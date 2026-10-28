@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "nom": "Dr. Karim Alaoui",
+    "specialite": "Generaliste",
+    "telephone": "0661-234-567",
+    "adresse": "12 Avenue Hassan II, Rabat",
+    "latitude": 34.0132,
+    "longitude": -6.8325,
+    "disponible": true,
+    "note": 4.8
+  },
+  {
+    "id": 2,
+    "nom": "Dr. Sara Fassi",
+    "specialite": "Cardiologue",
+    "telephone": "0667-654-321",
+    "adresse": "5 Rue Ibn Battouta, Rabat",
+    "latitude": 34.0198,
+    "longitude": -6.8401,
+    "disponible": false,
+    "note": 4.5
+  },
+  {
+    "id": 3,
+    "nom": "Dr. Mehdi Benali",
+    "specialite": "Dentiste",
+    "telephone": "0670-111-222",
+    "adresse": "8 Boulevard Mohammed V, Sale",
+    "latitude": 34.0381,
+    "longitude": -6.7980,
+    "disponible": true,
+    "note": 4.9
+  },
+  {
+    "id": 4,
+    "nom": "Dr. Nadia Chraibi",
+    "specialite": "Pediatre",
+    "telephone": "0662-333-444",
+    "adresse": "3 Rue Al Andalus, Rabat",
+    "latitude": 34.0060,
+    "longitude": -6.8550,
+    "disponible": true,
+    "note": 4.7
+  },
+  {
+    "id": 5,
+    "nom": "Dr. Youssef Tazi",
+    "specialite": "Ophtalmologue",
+    "telephone": "0665-999-888",
+    "adresse": "20 Avenue Fal Ould Oumeir, Agdal",
+    "latitude": 33.9900,
+    "longitude": -6.8520,
+    "disponible": false,
+    "note": 4.3
+  },
+  {
+    "id": 6,
+    "nom": "Dr. Fatima Ziani",
+    "specialite": "Dermatologue",
+    "telephone": "0663-777-555",
+    "adresse": "15 Rue Patrice Lumumba, Rabat",
+    "latitude": 34.0210,
+    "longitude": -6.8300,
+    "disponible": true,
+    "note": 4.6
+  }
+]
+

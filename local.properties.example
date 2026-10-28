@@ -1,0 +1,8 @@
+# Copie ce fichier en local.properties (NON versionné) et remplis les valeurs.
+sdk.dir=/chemin/vers/Android/Sdk
+
+# Clé Google Maps (restreinte au package com.sante.app + SHA-1)
+MAPS_API_KEY=
+
+# URL du backend. 10.0.2.2 = localhost de ton PC vu depuis l'émulateur Android.
+API_BASE_URL=http://10.0.2.2:3000/api/

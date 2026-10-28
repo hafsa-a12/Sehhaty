@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  android:
+    name: Android (build)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+          cache: gradle
+      - name: Rendre gradlew exécutable
+        run: chmod +x gradlew
+      - name: Build APK debug
+        run: ./gradlew assembleDebug
+        env:
+          # Secret GitHub (Settings > Secrets) : optionnel, la compilation fonctionne sans
+          MAPS_API_KEY: ${{ secrets.MAPS_API_KEY }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sehhaty-debug-apk
+          path: app/build/outputs/apk/debug/*.apk
+
+  backend:
+    name: Backend Spring Boot (build)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+          cache: maven
+      - name: Build
+        run: mvn -B package

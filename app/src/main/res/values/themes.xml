@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.SanteApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/vert_principal</item>
+        <item name="colorPrimaryVariant">@color/vert_fonce</item>
+        <item name="colorOnPrimary">@color/blanc</item>
+        <item name="colorSecondary">@color/vert_clair</item>
+        <item name="colorOnSecondary">@color/vert_fonce</item>
+        <item name="android:statusBarColor">@color/vert_fonce</item>
+        <item name="android:windowBackground">@color/gris_fond</item>
+    </style>
+</resources>

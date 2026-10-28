@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Santé App</string>
+    <string name="nav_doctors">Médecins</string>
+    <string name="nav_map">Carte</string>
+    <string name="nav_notes">Notes</string>
+    <string name="nav_sensor">Capteurs</string>
+    <string name="nav_conseils">Conseils</string>
+    <string name="btn_reserver">Réserver</string>
+    <string name="btn_itineraire">Itinéraire</string>
+    <string name="label_disponible">Disponible</string>
+    <string name="label_occupe">Occupé</string>
+    <string name="search_hint">Chercher un médecin...</string>
+    <string name="objectif_pas">Objectif : 8 000 pas</string>
+    <string name="nouvelle_note">Nouvelle note</string>
+    <string name="sauvegarder">Sauvegarder</string>
+    <string name="annuler">Annuler</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="titre_requis">Le titre est requis</string>
+    <string name="note_ajoutee">Note ajoutée</string>
+    <string name="note_supprimee">Note supprimée</string>
+    <string name="mode_hors_ligne">Mode hors-ligne</string>
+    <string name="rdv_reserve">Rendez-vous réservé !</string>
+    <string name="erreur_connexion">Erreur de connexion</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="creer_compte">Créer un compte</string>
+    <string name="pas_de_compte">Pas de compte ? Créer un compte</string>
+    <string name="deja_un_compte">Déjà un compte ? Se connecter</string>
+    <string name="hint_nom">Nom complet</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mot de passe</string>
+    <string name="nom_requis">Le nom est requis</string>
+    <string name="email_invalide">Email invalide</string>
+    <string name="mot_de_passe_court">Mot de passe : 8 caractères minimum</string>
+    <string name="se_deconnecter">Se déconnecter</string>
+    <string name="bonjour_user">Bonjour, %1$s</string>
+</resources>

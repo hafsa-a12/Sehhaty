@@ -1,0 +1,29 @@
+# Gradle / Android Studio
+*.iml
+.gradle/
+build/
+/captures
+.externalNativeBuild
+.cxx
+.idea/
+local.properties
+*.apk
+*.aab
+.DS_Store
+
+# Secrets
+*.keystore
+*.jks
+google-services.json
+
+
+# Backend
+backend/target/
+backend/data/
+build/
+.gradle/
+.idea/
+local.properties
+*.iml
+backend/target/
+backend/data/

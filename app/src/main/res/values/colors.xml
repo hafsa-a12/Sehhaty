@@ -1,0 +1,16 @@
+<resources>
+    <color name="vert_principal">#1a6b3c</color>
+    <color name="vert_fonce">#0f4f2a</color>
+    <color name="vert_clair">#d4edda</color>
+    <color name="blanc">#FFFFFF</color>
+    <color name="gris_fond">#F5F5F5</color>
+    <color name="gris_texte">#757575</color>
+    <color name="gris_bordure">#E0E0E0</color>
+    <color name="orange_attente">#fef3cd</color>
+    <color name="orange_texte">#856404</color>
+    <color name="rouge_erreur">#D32F2F</color>
+    <color name="bleu_info">#1565C0</color>
+    <color name="card_background">#F8F9FA</color>
+    <color name="design_default_color_primary">@color/vert_principal</color>
+    <color name="white">@color/blanc</color>
+</resources>

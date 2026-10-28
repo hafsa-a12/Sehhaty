@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gris_fond">
+
+    <!-- Header vert -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/vert_principal"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trouver un médecin"
+            android:textColor="@color/blanc"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Barre de recherche -->
+        <EditText
+            android:id="@+id/etSearch"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_search"
+            android:hint="Chercher un médecin..."
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="14sp"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <!-- Filtres spécialité -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blanc"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btnTous"
+                style="@style/BtnFiltre"
+                android:text="Tous"
+                android:backgroundTint="@color/vert_principal"
+                android:textColor="@color/blanc" />
+
+            <Button
+                android:id="@+id/btnGeneraliste"
+                style="@style/BtnFiltre"
+                android:text="Généraliste" />
+
+            <Button
+                android:id="@+id/btnCardio"
+                style="@style/BtnFiltre"
+                android:text="Cardio" />
+
+            <Button
+                android:id="@+id/btnDentiste"
+                style="@style/BtnFiltre"
+                android:text="Dentiste" />
+
+            <Button
+                android:id="@+id/btnPediatre"
+                style="@style/BtnFiltre"
+                android:text="Pédiatre" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- Liste médecins -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerDoctors"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:clipToPadding="false" />
+
+</LinearLayout>
